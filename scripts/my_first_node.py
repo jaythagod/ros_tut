@@ -3,4 +3,10 @@
 import rospy
 
 if __name__ == '__main__':
-    pass
+    rospy.init_node('my_first_python_node')
+
+    rospy.loginfo("This node has been started")
+
+    rospy.sleep(2)
+
+    rospy.loginfo("Exit now")
